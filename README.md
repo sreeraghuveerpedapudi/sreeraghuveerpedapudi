@@ -1,60 +1,61 @@
-<div align="center" style="background-color:#0d1117; color:white; padding:25px; border-radius:15px; font-family:Arial, sans-serif;">
-
-  <!-- Name & Title -->
-  <h1 style="color:#58a6ff;">🚀 Sree Raghuveer Pedapudi 🚀</h1>
-  <h3>🎓 B.Sc Mechatronics, Robotics & Automation | Junior at SIUE 🎓</h3>
-
-  <!-- Social Links -->
-  <p>
-    <a href="https://linkedin.com" target="_blank">
-      <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-    </a>
-    <a href="https://www.hackerrank.com/profile/sreeraghuveerpe1" target="_blank">
-      <img src="https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white" alt="HackerRank">
-    </a>
-    <a href="mailto:sreeraghuveerpedapudi@gmail.com">
-      <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
-    </a>
-  </p>
-
-  <!-- Profile GIF -->
-  <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="200" alt="robot gif" style="border-radius:10px; margin-top:20px;">
-
-  <!-- About Me -->
-  <p style="max-width:650px; line-height:1.6; margin-top:20px;">
-    💡 <b>Mechatronics Engineering student</b> with hands-on experience in <b>PCB inspection</b>, <b>custom PCB design</b>, and <b>embedded systems programming</b>.  
-    🔧 Skilled in <b>Arduino, ESP32, PIC32, STM32</b> with expertise in <b>UART, SPI, I2C, and CAN</b> protocols.  
-    📡 Passionate about robotics, hardware troubleshooting, and creating innovative automation solutions.
-  </p>
-
-  <!-- Featured Projects -->
-  <h2 style="margin-top:30px;">🚀 Featured Projects 🚀</h2>
-  <table>
-    <tr>
-      <td align="center" style="padding:15px;">
-        <a href="#">
-          <img src="https://media.giphy.com/media/l0HUpt2s9Pclgt9Vm/giphy.gif" width="200" alt="Embedded Systems" style="border-radius:10px;">
-        </a>
-        <p><b>IoT Irrigation System</b><br>Arduino + ESP + Cloud Monitoring</p>
-      </td>
-      <td align="center" style="padding:15px;">
-        <a href="#">
-          <img src="https://media.giphy.com/media/Ln4IqeFtd6R7azZzBv/giphy.gif" width="200" alt="GUI Application" style="border-radius:10px;">
-        </a>
-        <p><b>Embedded GUI Development</b><br>Interactive Hardware Interfaces</p>
-      </td>
-    </tr>
-  </table>
-
-  <!-- Tech Stack -->
-  <h3 style="margin-top:30px;">🛠 Tech Stack</h3>
-  <p>
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/arduino/arduino-original.svg" alt="Arduino" width="40" height="40">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" width="40" height="40">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/embeddedc/embeddedc-original.svg" alt="Embedded C" width="40" height="40">
-    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/matlab/matlab-original.svg" alt="MATLAB" width="40" height="40">
-  </p>
+<!-- Profile Header -->
+<div align="center">
+  
+# Sree Raghuveer Pedapudi  
+**Mechatronics, Robotics & Automation | Embedded Systems Enthusiast**  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com) 
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/sreeraghuveerpe1) 
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sreeraghuveerpedapudi@gmail.com)
 
 </div>
+
+---
+
+## 👋 About Me
+- 🎓 **Junior B.Sc Mechatronics** student at **Southern Illinois University Edwardsville**  
+- 🔧 Hands-on experience in **PCB inspection, embedded hardware, and automation**  
+- 💡 Skilled in **Arduino, ESP32, PIC32, STM32** and **UART, SPI, I2C, CAN** protocols  
+- 🚀 Passionate about **Robotics, IoT solutions, and innovative automation**  
+
+---
+
+## 🛠 Skills & Tools
+**Programming & Firmware**  
+`C` `Python` `Embedded C`  
+
+**Microcontrollers & Boards**  
+`Arduino` `ESP32` `PIC32` `STM32` `Raspberry Pi`  
+
+**Electronics & PCB**  
+`Circuit Design` `Soldering` `PCB Troubleshooting` `KiCad` `Eagle`  
+
+**Communication Protocols**  
+`UART` `SPI` `I2C` `CAN`  
+
+---
+
+## 🚀 Selected Projects
+| Project | Tech Used | Description |
+|---------|-----------|-------------|
+| **IoT Irrigation System** | Arduino Mega, ESP, Cloud | Real-time crop monitoring & automated watering |
+| **Embedded GUI Interface** | STM32, C, TFT Display | User-friendly interface for embedded devices |
+
+---
+
+## 📊 GitHub Stats
+<div align="center">
+  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=sree-raghuveer&theme=tokyonight&hide_border=true)  
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=sree-raghuveer&show_icons=true&theme=tokyonight&hide_border=true)  
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=sree-raghuveer&layout=compact&theme=tokyonight&hide_border=true)  
+
+</div>
+
+---
+
+## 📫 How to Reach Me
+📧 **Email:** [sreeraghuveerpedapudi@gmail.com](mailto:sreeraghuveerpedapudi@gmail.com)  
+🔗 **LinkedIn:** [linkedin.com/in/your-link](https://linkedin.com)  
+💻 **HackerRank:** [Profile](https://www.hackerrank.com/profile/sreeraghuveerpe1)  
+
+---
