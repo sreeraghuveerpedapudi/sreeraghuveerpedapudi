@@ -6,7 +6,6 @@
 <title>Amazon Employee Profile</title>
 
 <style>
-/* ===== GLOBAL ===== */
 body{
   margin:0;
   font-family: Arial, Helvetica, sans-serif;
@@ -18,10 +17,10 @@ body{
   margin:auto;
   padding:20px;
 }
-h2,h3,h4{margin:6px 0}
+h2,h3{margin:6px 0}
 p{line-height:1.6}
 
-/* ===== HEADER ===== */
+/* HEADER */
 .header{
   display:flex;
   justify-content:space-between;
@@ -49,7 +48,7 @@ p{line-height:1.6}
   color:#00ff99;
 }
 
-/* ===== CARDS ===== */
+/* CARDS */
 .card{
   background:#1a1f2b;
   border-radius:14px;
@@ -57,7 +56,7 @@ p{line-height:1.6}
   margin-top:22px;
 }
 
-/* ===== PROFILE ===== */
+/* PROFILE */
 .profile{
   display:flex;
   gap:25px;
@@ -84,7 +83,7 @@ p{line-height:1.6}
   margin-top:6px;
 }
 
-/* ===== GRID ===== */
+/* GRID */
 .grid{
   display:grid;
   grid-template-columns:repeat(4,1fr);
@@ -98,7 +97,7 @@ p{line-height:1.6}
   font-size:14px;
 }
 
-/* ===== TABLE ===== */
+/* TABLE */
 .table{
   width:100%;
   border-collapse:collapse;
@@ -115,7 +114,7 @@ p{line-height:1.6}
   font-weight:bold;
 }
 
-/* ===== SKILLS ===== */
+/* SKILLS */
 .skills{
   display:flex;
   flex-wrap:wrap;
@@ -128,7 +127,7 @@ p{line-height:1.6}
   font-size:13px;
 }
 
-/* ===== KPI ===== */
+/* KPI */
 .kpi-grid{
   display:grid;
   grid-template-columns:repeat(3,1fr);
@@ -152,7 +151,7 @@ p{line-height:1.6}
   background:#ff9900;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 .footer{
   text-align:center;
   margin-top:30px;
@@ -165,7 +164,7 @@ p{line-height:1.6}
 <body>
 <div class="container">
 
-<!-- ================= HEADER ================= -->
+<!-- HEADER -->
 <div class="header">
   <div class="header-left">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg" alt="Amazon Logo">
@@ -177,49 +176,48 @@ p{line-height:1.6}
   <div class="status">Active Employee</div>
 </div>
 
-<!-- ================= PROFILE ================= -->
+<!-- PROFILE -->
 <div class="card">
   <div class="profile">
-    <div class="avatar">MK</div>
+    <div class="avatar">SR</div>
     <div>
-      <h2>FNU Maliha Khanam</h2>
+      <h2>Sreeraghuveer</h2>
       <div class="tag">Data Engineer</div>
       <p><b>Working Since:</b> February 2025</p>
-      <p><b>Employee Status:</b> Full-Time | Good Standing</p>
+      <p><b>Employment Status:</b> Full-Time</p>
     </div>
   </div>
 
   <div class="grid">
-    <div class="box"><b>Employee ID</b><br>AMZ-DE-2025-017</div>
+    <div class="box"><b>Employee ID</b><br>AMZ-DE-2025-021</div>
     <div class="box"><b>Department</b><br>Data & Analytics</div>
     <div class="box"><b>Team</b><br>Data Platform Engineering</div>
-    <div class="box"><b>Location</b><br>Illinois, USA</div>
+    <div class="box"><b>Location</b><br>United States</div>
   </div>
 </div>
 
-<!-- ================= CONTACT ================= -->
+<!-- CONTACT -->
 <div class="card">
   <h3>Contact Information</h3>
   <table class="table">
-    <tr><th>Email</th><td>malikhanam1713@gmail.com</td></tr>
-    <tr><th>Phone</th><td>618-217-8807</td></tr>
-    <tr><th>Work Mode</th><td>Hybrid (Office & Remote)</td></tr>
+    <tr><th>Email</th><td>sreeraghuveerpedapudi@gmail.com</td></tr>
+    <tr><th>Phone</th><td>347-636-4177</td></tr>
+    <tr><th>Work Mode</th><td>Hybrid</td></tr>
     <tr><th>Shift</th><td>Monday – Friday (9:00 AM – 5:00 PM)</td></tr>
   </table>
 </div>
 
-<!-- ================= PROFESSIONAL SUMMARY ================= -->
+<!-- SUMMARY -->
 <div class="card">
   <h3>Professional Summary</h3>
   <p>
-    Data Engineer at Amazon with experience in designing, developing, and maintaining scalable
-    data pipelines and enterprise data platforms. Strong expertise in ETL/ELT workflows, data
-    warehousing, and quality assurance. Actively collaborates with analytics, product, and
-    business teams to deliver reliable and actionable data solutions.
+    Data Engineer with experience in building scalable and reliable data pipelines,
+    supporting analytics and reporting platforms, and maintaining data quality standards.
+    Skilled in collaborating with cross-functional teams to deliver high-impact data solutions.
   </p>
 </div>
 
-<!-- ================= PERFORMANCE ================= -->
+<!-- PERFORMANCE -->
 <div class="card">
   <h3>Performance Overview</h3>
   <div class="kpi-grid">
@@ -241,19 +239,19 @@ p{line-height:1.6}
   </div>
 </div>
 
-<!-- ================= RESPONSIBILITIES ================= -->
+<!-- RESPONSIBILITIES -->
 <div class="card">
   <h3>Key Responsibilities</h3>
   <ul>
-    <li>Design and maintain batch and streaming data pipelines.</li>
+    <li>Design and maintain scalable batch and streaming data pipelines.</li>
     <li>Ensure data quality, integrity, and governance standards.</li>
     <li>Develop optimized data models for analytics and reporting.</li>
-    <li>Collaborate with data scientists and analysts.</li>
-    <li>Monitor pipeline performance and resolve incidents.</li>
+    <li>Collaborate with cross-functional engineering and analytics teams.</li>
+    <li>Monitor pipeline performance and resolve production issues.</li>
   </ul>
 </div>
 
-<!-- ================= SKILLS ================= -->
+<!-- SKILLS -->
 <div class="card">
   <h3>Technical Skills</h3>
   <div class="skills">
@@ -264,11 +262,11 @@ p{line-height:1.6}
     <div class="skill">Data Modeling</div>
     <div class="skill">AWS Cloud Services</div>
     <div class="skill">Big Data Processing</div>
-    <div class="skill">Data Quality & Monitoring</div>
+    <div class="skill">Monitoring & Data Quality</div>
   </div>
 </div>
 
-<!-- ================= PROJECTS ================= -->
+<!-- PROJECTS -->
 <div class="card">
   <h3>Major Projects</h3>
   <table class="table">
@@ -279,12 +277,12 @@ p{line-height:1.6}
     </tr>
     <tr>
       <td>Sales Analytics Pipeline</td>
-      <td>Built automated pipelines to support enterprise sales reporting.</td>
+      <td>Developed automated pipelines supporting enterprise sales analytics.</td>
       <td>Completed</td>
     </tr>
     <tr>
       <td>Data Quality Framework</td>
-      <td>Implemented validation checks and alerting systems.</td>
+      <td>Implemented validation checks and monitoring dashboards.</td>
       <td>Live</td>
     </tr>
     <tr>
@@ -295,10 +293,9 @@ p{line-height:1.6}
   </table>
 </div>
 
-<!-- ================= FOOTER ================= -->
+<!-- FOOTER -->
 <div class="footer">
-  © 2026 Amazon Employee Portal — Student Assignment (Demo Only)<br>
-  This website is created strictly for educational purposes and is not an official Amazon system.
+  © 2026 Amazon Employee Portal
 </div>
 
 </div>
